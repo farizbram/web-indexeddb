@@ -61,7 +61,7 @@
       document.addEventListener("DOMContentLoaded", function() {
           var item = getArticleById();
           var save = document.getElementById("save");
-          save.onclick = function () {
+          save.onclick = function() {
               console.log("Tombol FAB di klik.");
               item.then(function (article) {
                   saveForLater(article);
